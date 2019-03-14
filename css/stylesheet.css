@@ -24,10 +24,10 @@ ol{
 }
 
 header img{
-	border-radius: 25%;
-	max-width: 50%;
+	border-radius: 50%;
 	border: 25px solid #d67215;
 	box-shadow: 0 10px 20px black;
+	width: 30%;
 }
 
 p.caption{
