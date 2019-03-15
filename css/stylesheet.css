@@ -15,6 +15,7 @@ h1{
 	font-size: 90px;
 	color: white;
 	text-shadow: 0 10px 20px black;
+	margin: 50px auto;
 }
 
 ol{
@@ -28,7 +29,28 @@ header img{
 	border: 25px solid #d67215;
 	box-shadow: 0 10px 20px black;
 	width: 30%;
+	margin: 50px auto;
 }
+
+header img:hover{
+	animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+@keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 249px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
 
 p.caption{
 	font-size: 16px;
